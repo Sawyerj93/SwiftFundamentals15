@@ -10,14 +10,15 @@ print("How to use playgrounds to make writing Swift fun and simple")
 /*:
  Now print your own phrases to the console. Pick one of your favorite songs. Use your knowledge of the `print` function to display the song title and artist.
  */
-
+print("Wicked Game, Stone Sour")
 
 /*:
  Use multiple `print` functions to write out some of the lyrics to the song.
  */
-
-
-
+print("The world was on fire and no one could save me but you.")
+print("Strange what desire will make foolish people do.")
+print("And I never dreamed that I'd meet somebody like you")
+print("And i never dreamed that I'd lose somebody like you.")
 /*:
 
  _Copyright © 2023 Apple Inc._
