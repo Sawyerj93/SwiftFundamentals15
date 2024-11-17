@@ -8,6 +8,13 @@ struct Book {
     var author: String
     var pages: Int
     var price: Double
+ func description() {
+        print("This is \(title) by \(author)")
+    }
+}
+
+var book = Book(title: "Sea Adventures", author: "Harley", pages: 500, price: 35)
+book.description()
     
 }
 
@@ -17,9 +24,14 @@ struct Post {
     var message: String
     var likes: Int
     var numberOfComments: Int
-
+  mutating func like() {
+        self.likes += 1
+    }
 }
 
+var post = Post(message: "How are you?", likes: 10, numberOfComments: 1_000)
+post.like()
+print(post.likes)
 
 /*:
 [Previous](@previous)  |  page 5 of 10  |  [Next: App Exercise - Workout Functions](@next)
