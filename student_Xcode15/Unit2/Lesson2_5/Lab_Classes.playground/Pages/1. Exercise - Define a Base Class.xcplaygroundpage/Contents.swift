@@ -11,15 +11,15 @@
     var position: Int = 0
     
     func moveLeft() {
-        position -= 5
+        position -= 1
     }
     
     func moveRight() {
-        position += 5
+        position += 1
     }
     
     func wasHit() {
-        health -= 10
+        health -= 5
         
         if health <= 0 {
             print("Sorry. Your ship was hit one too many times. Do you want to play again?")
